@@ -1,9 +1,9 @@
 //test
 //your parameter variables go here!
-let moonshadowHeight=50
-let eyeHeight =6;
+let moonshadowHeight=37
+let eyeHeight =15;
 let moonHieght =60;
-let cresent = true;
+let cresent =true;
 let cloud =true;
 let star = true;
 function setup_wallpaper(pWallpaper) {
