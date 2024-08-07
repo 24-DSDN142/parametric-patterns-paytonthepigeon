@@ -1,5 +1,4 @@
-//test
-//your parameter variables go here!
+
 let moonshadowHeight=37
 let eyeHeight =15;
 let moonHieght =60;
@@ -9,19 +8,17 @@ let star = true;
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GLIDE_WALLPAPER);
   pWallpaper.resolution(FIT_TO_SCREEN);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
-
-  //Grid settings
+  pWallpaper.show_guide(false); 
   pWallpaper.grid_settings.cell_width  = 200;
   pWallpaper.grid_settings.cell_height = 200;
   pWallpaper.grid_settings.row_offset  = 50;
 }
 
 function wallpaper_background() {
-  background(139,0,0); //red vampire like colour
+  background(139,0,0); 
 }
 
-function my_symbol() { // do not rename this function. Treat this similarly to a Draw function
+function my_symbol() { 
 
   stroke(15,11,26);
   fill(15,11,26);
@@ -52,7 +49,7 @@ stroke(200,10,0)
  vertex(170,100)
  vertex(180,94)
 vertex(170,86)
- //vertex(180,90)
+
 vertex(170,50)
 endShape(CLOSE);
 }
@@ -85,13 +82,13 @@ vertex(160,15)
   
   fill(15,11,26);
   stroke(15,11,26);
-  ellipse(100, 100, 50, 55); // draws a circle 45 pixels accross at location 100 pixels accross and 100 pixels down
+  ellipse(100, 100, 50, 55); 
   
  
   
   fill(255,255,255);
   stroke(15,11,26);
-  ellipse(100,100,35,eyeHeight);//eye
+  ellipse(100,100,35,eyeHeight)
   
   fill(15,11,26);
   stroke(15,11,26);
@@ -100,14 +97,14 @@ vertex(160,15)
   stroke(255);
   strokeWeight(1);
   
-  line(110,120,115,110);//mouth
-   line(110,120,105,115);//mouth
-   line(105,115,95,120);//mouth
-   line(95,120,90,115);//mouth
-   line(84,118,90,115);//mouth
-   line(84,118,81,105);//mouth
+  line(110,120,115,110);
+   line(110,120,105,115);
+   line(105,115,95,120);
+   line(95,120,90,115);
+   line(84,118,90,115);
+   line(84,118,81,105);
    line(104,109,95,108);
-line(1,1,1,200);//column
+line(1,1,1,200);
    
    stroke(15,11,26);
    line(80,105,60,90);
@@ -116,11 +113,11 @@ line(1,1,1,200);//column
    line(80,100,60,110);
 
 
-//endShape(CLOSE);
+
 stroke(220,70,60);
 fill(220,70,60);
 
-ellipse(50,40,moonHieght,moonHieght);//moon
+ellipse(50,40,moonHieght,moonHieght);
 
 
 if (cresent){
